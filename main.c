@@ -5,12 +5,16 @@
 
 int main(void) 
 {
-	char c;
+	int a;
+	int b;
 	
-	printf("enter a character :");
-	scanf("%c", &c);
+	printf("enter a : ");
+	scanf("%d", &a);
 	
-	printf("the next character of %c (%d) is %c (%d)\n", c, c, c+1, c+1);
+	printf("enter b : ");
+	scanf("%d", &b);
+	
+	printf("%d / %d = %f\n", a, b, (float)a / b);
 
 	return 0;
 }
